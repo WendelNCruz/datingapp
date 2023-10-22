@@ -6,6 +6,10 @@ buildscript {
     }
 
     dependencies {
+        //Formato de Conexao Json com Firebase
+        // Demais informações ignoradas: id("") version "" apply false
+        //Verificar a adição dos dois pontos, difrenete do que é repassado no firebase
+        classpath 'com.google.gms:google-services:4.4.0'
         classpath 'com.android.tools.build:gradle:7.3.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
